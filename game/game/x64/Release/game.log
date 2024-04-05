@@ -1,0 +1,25 @@
+﻿  main.c
+C:\Users\Administrator\source\repos\game\game\engine.h(37,15): warning C4133: “初始化”: 从“void (__cdecl *)(lua_State *)”到“lua_CFunction”的类型不兼容
+  (编译源文件“main.c”)
+  
+C:\Users\Administrator\source\repos\game\game\engine.h(38,12): warning C4133: “初始化”: 从“void (__cdecl *)(lua_State *)”到“lua_CFunction”的类型不兼容
+  (编译源文件“main.c”)
+  
+C:\Users\Administrator\source\repos\game\game\engine.h(39,11): warning C4133: “初始化”: 从“void (__cdecl *)(lua_State *)”到“lua_CFunction”的类型不兼容
+  (编译源文件“main.c”)
+  
+C:\Users\Administrator\source\repos\game\game\engine.h(40,14): warning C4133: “初始化”: 从“void (__cdecl *)(lua_State *)”到“lua_CFunction”的类型不兼容
+  (编译源文件“main.c”)
+  
+C:\Users\Administrator\source\repos\game\game\engine.h(42,15): warning C4133: “初始化”: 从“void (__cdecl *)(lua_State *)”到“lua_CFunction”的类型不兼容
+  (编译源文件“main.c”)
+  
+C:\Users\Administrator\source\repos\game\game\engine.h(49,14): warning C4047: “初始化”:“lua_CFunction”与“const luaL_Reg *”的间接级别不同
+  (编译源文件“main.c”)
+  
+  正在生成代码
+  1 of 20 functions ( 5.0%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    0 functions had inline decision re-evaluated but remain unchanged
+  已完成代码的生成
+  game.vcxproj -> C:\Users\Administrator\source\repos\game\x64\Release\game.exe

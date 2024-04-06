@@ -21,7 +21,13 @@ void rectangle(lua_State *L)
 	int h = (int)lua_tonumber(L, 5);
 
 	SDL_Rect *rect = newRect(x, y, w, h);
-	SDL_RenderDrawRect(global_renderer, rect);
+	if ("fill" == mode) {
+		SDL_RenderFillRect(global_renderer, rect);
+	}
+	else {
+
+		SDL_RenderDrawRect(global_renderer, rect);
+	}
 }
 //ªÊ÷∆‘≤–Œ
 void circle(lua_State *L)

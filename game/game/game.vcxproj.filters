@@ -19,6 +19,12 @@
     <Filter Include="源文件\graphics">
       <UniqueIdentifier>{3f9920be-2e8d-4605-a30d-f8280cfa100a}</UniqueIdentifier>
     </Filter>
+    <Filter Include="头文件\key">
+      <UniqueIdentifier>{d5a0f379-4198-44d5-b434-eacc9fff6055}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\key">
+      <UniqueIdentifier>{bb093d35-ed4f-42a9-b7d9-03054226b080}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="SDL_utils.h">
@@ -36,6 +42,12 @@
     <ClInclude Include="image.h">
       <Filter>头文件\graphics</Filter>
     </ClInclude>
+    <ClInclude Include="zmycollection.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="zmykey.h">
+      <Filter>头文件\key</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.c" />
@@ -47,6 +59,12 @@
     </ClCompile>
     <ClCompile Include="graphics.c">
       <Filter>源文件\graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="zmycollection.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="zmykey.c">
+      <Filter>源文件\key</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>

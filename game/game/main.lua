@@ -41,6 +41,14 @@ function draw()
 	g.setColor(255,255,0,255)
 	g.rectangle("fill",player.x,player.y,player.width,player.height)
 	g.rectangle("fill",100,200,300,400)
-	--graphics.circle("fill",100,200,100)
 
+end
+
+
+function keyDown( keycode )
+	print(#keys,keys.key_FIRST,keys.key_w,keycode)
+	if keycode == keys.key_w then
+		print("====")
+	end
+	
 end

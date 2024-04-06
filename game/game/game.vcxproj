@@ -147,17 +147,21 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="zmycollection.c" />
     <ClCompile Include="engine.c" />
     <ClCompile Include="graphics.c" />
     <ClCompile Include="main.c" />
     <ClCompile Include="SDL_utils.c" />
+    <ClCompile Include="zmykey.c" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="zmycollection.h" />
     <ClInclude Include="engine.h" />
     <ClInclude Include="graphics.h" />
     <ClInclude Include="image.h" />
     <ClInclude Include="resource.h" />
     <ClInclude Include="SDL_utils.h" />
+    <ClInclude Include="zmykey.h" />
   </ItemGroup>
   <ItemGroup>
     <None Include="conf.lua" />

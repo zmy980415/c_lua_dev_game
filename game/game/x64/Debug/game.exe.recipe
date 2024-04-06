@@ -2,7 +2,7 @@
 <Project>
   <ProjectOutputs>
     <ProjectOutput>
-      <FullPath>C:\Users\Administrator\source\repos\game\x64\Debug\game.exe</FullPath>
+      <FullPath>C:\Users\Administrator\source\repos\c_lua_dev_game\game\x64\Debug\game.exe</FullPath>
     </ProjectOutput>
   </ProjectOutputs>
   <ContentFiles />

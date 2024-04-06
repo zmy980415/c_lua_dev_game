@@ -17,6 +17,8 @@ typedef struct Engine {
 	void (*funInit)(lua_State* L);
 	void (*funUpdate)(lua_State* L,float dt);
 	void (*funDraw)(lua_State* L);
+	void (*funkeyDown)(lua_State* L,int keyCode);
+	void (*funDestroy)(struct Engine* engine);
 	struct Engine_Config* engineConfig;
 } Engine;
 
@@ -28,6 +30,7 @@ typedef struct Engine_Config {
 	int height;
 	char *title;
 }Engine_Config;
+
 
 /*******************内置的模块上******************/
 
@@ -56,5 +59,5 @@ static const struct luaL_Reg zmy[] = {
 /******************初始化方法**********************/
 //返回支持lua操作的指针结构体
 Engine * init();
-
+void destroy(Engine* engine);
 #endif // ENGINE_H_

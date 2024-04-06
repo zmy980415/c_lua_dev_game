@@ -1,34 +1,53 @@
-﻿  engine.c
+﻿  SDL_utils.c
+C:\Users\Administrator\source\repos\c_lua_dev_game\game\game\SDL_utils.c(9,3): warning C4013: “printf”未定义；假设外部返回 int
+  engine.c
+C:\Users\Administrator\source\repos\c_lua_dev_game\game\game\engine.h(40,15): warning C4133: “初始化”: 从“void (__cdecl *)(lua_State *)”到“lua_CFunction”的类型不兼容
+  (编译源文件“engine.c”)
+  
+C:\Users\Administrator\source\repos\c_lua_dev_game\game\game\engine.h(41,12): warning C4133: “初始化”: 从“void (__cdecl *)(lua_State *)”到“lua_CFunction”的类型不兼容
+  (编译源文件“engine.c”)
+  
+C:\Users\Administrator\source\repos\c_lua_dev_game\game\game\engine.h(42,11): warning C4133: “初始化”: 从“void (__cdecl *)(lua_State *)”到“lua_CFunction”的类型不兼容
+  (编译源文件“engine.c”)
+  
+C:\Users\Administrator\source\repos\c_lua_dev_game\game\game\engine.h(43,14): warning C4133: “初始化”: 从“void (__cdecl *)(lua_State *)”到“lua_CFunction”的类型不兼容
+  (编译源文件“engine.c”)
+  
+C:\Users\Administrator\source\repos\c_lua_dev_game\game\game\engine.h(45,15): warning C4133: “初始化”: 从“void (__cdecl *)(lua_State *)”到“lua_CFunction”的类型不兼容
+  (编译源文件“engine.c”)
+  
+C:\Users\Administrator\source\repos\c_lua_dev_game\game\game\engine.h(52,14): warning C4047: “初始化”:“lua_CFunction”与“const luaL_Reg *”的间接级别不同
+  (编译源文件“engine.c”)
+  
+C:\Users\Administrator\source\repos\c_lua_dev_game\game\game\engine.c(48,31): warning C4090: “=”: 不同的“const”限定符
+C:\Users\Administrator\source\repos\c_lua_dev_game\game\game\engine.c(41,16): warning C4244: “初始化”: 从“lua_Number”转换到“int”，可能丢失数据
+C:\Users\Administrator\source\repos\c_lua_dev_game\game\game\engine.c(43,17): warning C4244: “初始化”: 从“lua_Number”转换到“int”，可能丢失数据
+C:\Users\Administrator\source\repos\c_lua_dev_game\game\game\engine.c(342,2): warning C4013: “strcat”未定义；假设外部返回 int
   graphics.c
-C:\Users\Administrator\source\repos\game\game\engine.h(31,15): warning C4133: “初始化”: 从“void (__cdecl *)(lua_State *)”到“lua_CFunction”的类型不兼容
-  (编译源文件“engine.c”)
-  
-C:\Users\Administrator\source\repos\game\game\engine.h(32,12): warning C4133: “初始化”: 从“void (__cdecl *)(lua_State *)”到“lua_CFunction”的类型不兼容
-  (编译源文件“engine.c”)
-  
-C:\Users\Administrator\source\repos\game\game\engine.h(33,11): warning C4133: “初始化”: 从“void (__cdecl *)(lua_State *)”到“lua_CFunction”的类型不兼容
-  (编译源文件“engine.c”)
-  
-C:\Users\Administrator\source\repos\game\game\engine.h(34,14): warning C4133: “初始化”: 从“void (__cdecl *)(lua_State *)”到“lua_CFunction”的类型不兼容
-  (编译源文件“engine.c”)
-  
-C:\Users\Administrator\source\repos\game\game\engine.c(49,31): warning C4090: “=”: 不同的“const”限定符
-C:\Users\Administrator\source\repos\game\game\engine.c(42,16): warning C4244: “初始化”: 从“lua_Number”转换到“int”，可能丢失数据
-C:\Users\Administrator\source\repos\game\game\engine.c(44,17): warning C4244: “初始化”: 从“lua_Number”转换到“int”，可能丢失数据
-C:\Users\Administrator\source\repos\game\game\graphics.c(29,8): warning C4090: “初始化”: 不同的“const”限定符
-C:\Users\Administrator\source\repos\game\game\graphics.c(45,8): warning C4090: “初始化”: 不同的“const”限定符
+C:\Users\Administrator\source\repos\c_lua_dev_game\game\game\graphics.c(17,8): warning C4090: “初始化”: 不同的“const”限定符
+C:\Users\Administrator\source\repos\c_lua_dev_game\game\game\graphics.c(43,2): warning C4013: “drawCircle”未定义；假设外部返回 int
+C:\Users\Administrator\source\repos\c_lua_dev_game\game\game\graphics.c(38,8): warning C4090: “初始化”: 不同的“const”限定符
+C:\Users\Administrator\source\repos\c_lua_dev_game\game\game\graphics.c(90,37): warning C4133: “=”: 从“SDL_Texture *”到“IMAGE *”的类型不兼容
+C:\Users\Administrator\source\repos\c_lua_dev_game\game\game\graphics.c(107,43): warning C4133: “函数”: 从“IMAGE *”到“SDL_Texture *”的类型不兼容
+C:\Users\Administrator\source\repos\c_lua_dev_game\game\game\graphics.c(162,49): warning C4133: “函数”: 从“IMAGE *”到“SDL_Texture *”的类型不兼容
   main.c
-C:\Users\Administrator\source\repos\game\game\engine.h(31,15): warning C4133: “初始化”: 从“void (__cdecl *)(lua_State *)”到“lua_CFunction”的类型不兼容
+C:\Users\Administrator\source\repos\c_lua_dev_game\game\game\engine.h(40,15): warning C4133: “初始化”: 从“void (__cdecl *)(lua_State *)”到“lua_CFunction”的类型不兼容
   (编译源文件“main.c”)
   
-C:\Users\Administrator\source\repos\game\game\engine.h(32,12): warning C4133: “初始化”: 从“void (__cdecl *)(lua_State *)”到“lua_CFunction”的类型不兼容
+C:\Users\Administrator\source\repos\c_lua_dev_game\game\game\engine.h(41,12): warning C4133: “初始化”: 从“void (__cdecl *)(lua_State *)”到“lua_CFunction”的类型不兼容
   (编译源文件“main.c”)
   
-C:\Users\Administrator\source\repos\game\game\engine.h(33,11): warning C4133: “初始化”: 从“void (__cdecl *)(lua_State *)”到“lua_CFunction”的类型不兼容
+C:\Users\Administrator\source\repos\c_lua_dev_game\game\game\engine.h(42,11): warning C4133: “初始化”: 从“void (__cdecl *)(lua_State *)”到“lua_CFunction”的类型不兼容
   (编译源文件“main.c”)
   
-C:\Users\Administrator\source\repos\game\game\engine.h(34,14): warning C4133: “初始化”: 从“void (__cdecl *)(lua_State *)”到“lua_CFunction”的类型不兼容
+C:\Users\Administrator\source\repos\c_lua_dev_game\game\game\engine.h(43,14): warning C4133: “初始化”: 从“void (__cdecl *)(lua_State *)”到“lua_CFunction”的类型不兼容
+  (编译源文件“main.c”)
+  
+C:\Users\Administrator\source\repos\c_lua_dev_game\game\game\engine.h(45,15): warning C4133: “初始化”: 从“void (__cdecl *)(lua_State *)”到“lua_CFunction”的类型不兼容
+  (编译源文件“main.c”)
+  
+C:\Users\Administrator\source\repos\c_lua_dev_game\game\game\engine.h(52,14): warning C4047: “初始化”:“lua_CFunction”与“const luaL_Reg *”的间接级别不同
   (编译源文件“main.c”)
   
   正在生成代码...
-  game.vcxproj -> C:\Users\Administrator\source\repos\game\x64\Debug\game.exe
+  game.vcxproj -> C:\Users\Administrator\source\repos\c_lua_dev_game\game\x64\Debug\game.exe

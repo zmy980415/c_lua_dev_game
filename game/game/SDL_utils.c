@@ -19,7 +19,8 @@ SDL_Rect* newRect(int x, int y, int width, int height)
 
 void drawCircle(SDL_Renderer* renderer, int centerX, int centerY, int radius)
 {
-	;
+	//const SDL_Point *points = 
+	
 	for (int w = 0; w < radius * 2; ++w)
 	{
 		for (int h = 0; h < radius * 2; ++h)
@@ -32,6 +33,7 @@ void drawCircle(SDL_Renderer* renderer, int centerX, int centerY, int radius)
 			}
 		}
 	}
+	//SDL_RenderDrawPoints(renderer,)
 }
 
 
